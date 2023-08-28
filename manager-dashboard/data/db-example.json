@@ -1,0 +1,94 @@
+{
+  "managers": [
+    {
+      "firstName": "Michael ",
+      "lastName": "Scott",
+      "email": "mscott23@gmail.com",
+      "username": "mscott1975",
+      "password": "mscott123",
+      "department": null,
+      "title": "Regional Manager",
+      "accessCode": 605722,
+      "permissions": 1,
+      "id": 1
+    }
+  ],
+  "departments": [
+    {
+      "name": "Sales",
+      "managerId": 1,
+      "employees": [
+        2,
+        1
+      ],
+      "id": 1
+    }
+  ],
+  "employees": [
+    {
+      "firstName": "James",
+      "lastName": "Halpert",
+      "email": "jhalpert80@gmail.com",
+      "username": "jhalp80",
+      "password": "halpert1980",
+      "department": 1,
+      "title": "Salesman",
+      "accessCode": 605722,
+      "permissions": 1,
+      "id": 1,
+      "tasksAssigned": [
+        1
+      ]
+    },
+    {
+      "firstName": "Dwight",
+      "lastName": "Schrute",
+      "email": "dschrute333@gmail.com",
+      "username": "dwighto9293",
+      "password": "gkjm4045bb",
+      "department": 1,
+      "title": "Assistant to the Regional Manager",
+      "accessCode": 605722,
+      "permissions": 1,
+      "id": 2,
+      "tasksAssigned": [
+        1
+      ]
+    },
+    {
+      "firstName": "Pamela",
+      "lastName": "Beesly",
+      "email": "pambe@gmail.com",
+      "username": "pam123",
+      "password": "pamela1985",
+      "department": null,
+      "title": "Front Desk Worker",
+      "accessCode": 605722,
+      "permissions": 1,
+      "id": 3,
+      "tasksAssigned": [
+        1
+      ]
+    }
+  ],
+  "access-codes": [
+    {
+      "code": 605722,
+      "id": 1
+    }
+  ],
+  "tasks": [
+    {
+      "name": "Plan my birthday",
+      "description": "Hey guys, please get ready for our Demo day, on the first of November.",
+      "employeesAssigned": [
+        1,
+        3
+      ],
+      "deadline": "2023-11-01",
+      "creator": 1,
+      "accessCode": 605722,
+      "id": 1
+    }
+  ]
+}
