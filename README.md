@@ -23,4 +23,5 @@ Next steps include but are not limited to:
 To start using Worklink, download the manager-dashboard folder onto your computer, then open 2 terminals (one for the data, and one for the app). 
 - 1: Navigate into manager-dashboard (cd manager-dashboard)
 - 2: In the data terminal, input *npx json-server --watch data/db.json --port 3001*
+- 2.a: If you want to run the pre-populated dashboard, run *npx json-server --watch data/db-example.json --port 3001* instead.
 - 3: In the app terminal, input *npm run start*
